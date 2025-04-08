@@ -5,7 +5,7 @@ import { OPTIONS } from "./options";
 export const Copy = ({ selected, setSelected }) => {
   return (
     <div className="w-full">
-      <span className="mb-1.5 block text-center text-indigo-600 md:text-start">
+      <span className="mb-1.5 block text-center text-pink-600 md:text-start">
         For the companies who go the extra mile!
       </span>
       <h2 className="mb-3 text-center text-4xl font-bold leading-tight md:text-start md:text-5xl md:leading-tight">

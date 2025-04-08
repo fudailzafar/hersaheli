@@ -37,7 +37,7 @@ export const NAV_LINKS = [
     title: "Ratings",
     sublinks: [
       {
-        title: "Rate Gigs",
+        title: "Rate Companies",
         href: "#",
       },
       {

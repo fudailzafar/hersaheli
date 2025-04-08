@@ -55,7 +55,7 @@ const Testimonial = ({ imgSrc, name, title, company, content }) => (
         >
           <span className="mb-1.5 block text-3xl font-medium">{name}</span>
           <span className="text-zinc-600">
-            {title} – <span className="text-indigo-600">{company}</span>
+            {title} – <span className="text-pink-600">{company}</span>
           </span>
         </motion.div>
       </div>

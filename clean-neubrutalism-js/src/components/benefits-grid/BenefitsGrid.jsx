@@ -16,7 +16,7 @@ export const BenefitsGrid = () => {
       className="relative mx-auto grid max-w-6xl grid-cols-3 gap-4 px-2 md:px-4"
     >
       <div className="col-span-3">
-        <SectionHeading>Why this works for you?</SectionHeading>
+        <SectionHeading>Why this works for Startups?</SectionHeading>
         <SectionSubheading>
            Our idea is good, but here's what makes us stand out from the crowd.
         </SectionSubheading>

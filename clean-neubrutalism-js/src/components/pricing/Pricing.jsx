@@ -14,11 +14,11 @@ export const Pricing = () => {
       <div className="mt-6 grid grid-cols-1 gap-6 lg:mt-12 lg:grid-cols-3 lg:gap-8">
         <PriceColumn
           title="Basic"
-          price="1999"
-          statement="For employers looking to up their productivity gains. 1999 forever."
+          price="1499"
+          statement="For employers looking to up their productivity gains. 1499 forever."
           items={[
             {
-              children: "1 Membership Account",
+              children: "1 Device Access",
               checked: true,
             },
             {
@@ -37,28 +37,25 @@ export const Pricing = () => {
               children: "Custom Branding",
               checked: false,
             },
-            {
-              children: "Self Host",
-              checked: false,
-            },
+            
           ]}
         />
         <PriceColumn
           title="Pro"
-          price={selected === "monthly" ? "3999" : "2999"}
+          price={selected === "monthly" ? "2499" : "1999"}
           statement="For teams looking to scale their team efficiently. Stay on track."
           highlight
           items={[
             {
-              children: "10 Membership Accounts",
+              children: "10 Device Access",
               checked: true,
             },
             {
-              children: "∞ Promotions",
+              children: "10 Promotions",
               checked: true,
             },
             {
-              children: "∞ Job Postings",
+              children: "10 Job Postings",
               checked: true,
             },
 
@@ -70,27 +67,24 @@ export const Pricing = () => {
               children: "Custom Branding",
               checked: false,
             },
-            {
-              children: "Self Pricing",
-              checked: false,
-            },
+            
           ]}
         />
         <PriceColumn
           title="Enterprise"
-          price={selected === "monthly" ? "9999" : "8999"}
+          price={selected === "monthly" ? "3499" : "2999"}
           statement="For enterprises looking to see new heights. Manage without the stress"
           items={[
             {
-              children: "∞ Membership Accounts",
+              children: "10+ Device Access",
               checked: true,
             },
             {
-              children: "∞ Promotions",
+              children: "25 Promotions",
               checked: true,
             },
             {
-              children: "∞ Job Postings",
+              children: "25 Job Postings",
               checked: true,
             },
 
@@ -100,10 +94,6 @@ export const Pricing = () => {
             },
             {
               children: "Custom Branding",
-              checked: true,
-            },
-            {
-              children: "Self Pricing",
               checked: true,
             },
           ]}
@@ -122,7 +112,7 @@ const PriceColumn = ({ highlight, title, price, statement, items }) => {
       className={`relative w-full rounded-lg p-6 md:p-8 ${highlight ? "border-2 border-zinc-900 bg-white" : ""}`}
     >
       {highlight && (
-        <span className="absolute right-4 top-0 -translate-y-1/2 rounded-full bg-indigo-600 px-2 py-0.5 text-sm text-white">
+        <span className="absolute right-4 top-0 -translate-y-1/2 rounded-full bg-pink-600 px-2 py-0.5 text-sm text-white">
           Most Popular
         </span>
       )}

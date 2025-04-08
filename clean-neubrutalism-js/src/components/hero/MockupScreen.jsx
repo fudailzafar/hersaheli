@@ -11,7 +11,7 @@ import { LogoSmall } from "../navigation/Logo";
 
 export const MockupScreen = () => {
   return (
-    <div className="absolute bottom-0 left-1/2 h-36 w-[calc(100vw_-_56px)] max-w-[1100px] -translate-x-1/2 overflow-hidden rounded-t-xl bg-zinc-900 p-0.5">
+    <div className="absolute bottom-0 left-1/2 h-36 w-[calc(100vw_-_56px)] max-w-[1100px] -translate-x-1/2 overflow-hidden rounded-t-xl bg-pink-400 p-0.5">
       <div className="flex items-center justify-between px-2 py-1">
         <div className="flex items-center gap-0.5">
           <span className="size-2 rounded-full bg-red-400" />

@@ -5,6 +5,7 @@ import { Logo } from "./Logo";
 import { DesktopLinks } from "./DesktopLinks";
 import { MobileLinks } from "./MobileLinks";
 import { Button } from "../shared/Button";
+import Link from "next/link";
 
 export const ExpandableNavBar = ({ children, links }) => {
   const [hovered, setHovered] = useState(null);
@@ -19,7 +20,7 @@ export const ExpandableNavBar = ({ children, links }) => {
 
   return (
     <>
-      <div className="bg-indigo-600 pt-2">
+      <div className="bg-pink-600 pt-2">
         <nav
           onMouseLeave={() => setHovered(null)}
           className="rounded-t-2xl bg-white p-4"
@@ -35,7 +36,9 @@ export const ExpandableNavBar = ({ children, links }) => {
               />
             </div>
             <Button className="hidden md:block" intent="secondary" size="small">
-              <span className="font-bold">Join Today! </span>
+              <Link href={"https://sabeer-bhai-code.vercel.app/"}>
+                <span className="font-bold"> Join Today! </span>
+              </Link>
             </Button>
             <button
               onClick={() => setMobileNavOpen((pv) => !pv)}
