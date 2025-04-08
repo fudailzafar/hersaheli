@@ -1,26 +1,5 @@
 export const NAV_LINKS = [
   {
-    title: "Women",
-    sublinks: [
-      {
-        title: "Login",
-        href: "#",
-      },
-      {
-        title: "Sign Up",
-        href: "#",
-      },
-      {
-        title: "Profile Update",
-        href: "#",
-      },
-      {
-        title: "Find a Job",
-        href: "#",
-      },
-    ],
-  },
-  {
     title: "Companies",
     sublinks: [
       {
@@ -84,6 +63,27 @@ export const NAV_LINKS = [
       },
       {
         title: "Support",
+        href: "#",
+      },
+    ],
+  },
+  {
+    title: "Women",
+    sublinks: [
+      {
+        title: "Login",
+        href: "#",
+      },
+      {
+        title: "Sign Up",
+        href: "#",
+      },
+      {
+        title: "Profile Update",
+        href: "#",
+      },
+      {
+        title: "Find a Job",
         href: "#",
       },
     ],
