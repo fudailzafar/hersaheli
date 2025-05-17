@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <title>Hersaheli – Empowering Women Everywhere</title>
         <link rel="icon" href="/logo.png" type="image/png" />
         {/* Basic Meta */}
         <meta name="description" content="Hersaheli – Empowering Women Everywhere" />
@@ -15,6 +16,8 @@ export default function Document() {
         <meta property="og:url" content="https://hersaheli.vercel.app" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Hersaheli" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
