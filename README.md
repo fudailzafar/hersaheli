@@ -4,7 +4,7 @@
 
 # HerSaheli
 
-**Empowering Undergraduate Women Graduates with Remote Job Opportunities**
+**Empowering Undergraduate Women with Remote Job Opportunities**
 
 Hersaheli is a platform dedicated to connecting undergraduate women graduates with remote job opportunities. Developed as part of **Becrez Hackathon'25**, this initiative aims to bridge the employment gap by providing accessible and flexible work options for women entering the workforce.
 
