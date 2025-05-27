@@ -64,7 +64,7 @@ const LogoColumn = () => {
     <div className="col-span-6 md:col-span-4">
       <LogoSmall />
       <span className="mt-3 inline-block text-xs">
-        © EHBecrez - All rights reserved.
+        © HerSaheli - All rights reserved.
       </span>
     </div>
   );

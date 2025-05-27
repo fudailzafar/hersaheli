@@ -38,10 +38,10 @@ const IssuesComponent = () => {
         </div>
       </div>
       <div className="mb-1 line-clamp-1 text-xl font-medium">
-        New Hire from EHBecrez
+        New Hire from HerSaheli
       </div>
       <span className="line-clamp-3 text-sm leading-relaxed text-zinc-600">
-        Just found a new hire from EHBecrez. She is a great fit for our team and
+        Just found a new hire from HerSaheli. She is a great fit for our team and
         the pricing works great!
       </span>
     </div>
@@ -86,7 +86,7 @@ const KanbanComponent = () => {
 const BGTask = () => {
   return (
     <div className="w-full rounded-lg bg-white p-4 text-[0.5rem] text-zinc-400 shadow blur-[1px] sm:text-xs">
-      New gig from EHBecrez!
+      New gig from HerSaheli!
     </div>
   );
 };

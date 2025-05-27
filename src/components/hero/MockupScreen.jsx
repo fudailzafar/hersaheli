@@ -19,7 +19,7 @@ export const MockupScreen = () => {
           <span className="size-2 rounded-full bg-green-400" />
         </div>
         <span className="rounded bg-zinc-600 px-2 py-0.5 text-xs text-zinc-100">
-          EHBecrez.com
+          hersaheli.vercel.app
         </span>
         <FiChevronDown className="text-white" />
       </div>

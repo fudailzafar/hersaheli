@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import React from "react";
 import { Button } from "../shared/Button";
+import Link from "next/link";
 
 export const FeatureDisplay = ({
   selected,
@@ -40,7 +41,9 @@ export const FeatureDisplay = ({
           </AnimatePresence>
         </div>
         <Button>
-          <span className="font-bold">Get started - </span> post your job now!
+          <Link href={"https://sabeer-bhai-code.vercel.app/"}>
+            <span className="font-bold">Get started - </span> post your job now!
+          </Link>
         </Button>
       </div>
       <div className="relative col-span-1 min-h-80 border-l-0 border-t-2 border-zinc-900 bg-zinc-100 shadow-inner shadow-zinc-500 md:col-span-5 md:border-l-2 md:border-t-0">

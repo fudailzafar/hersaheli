@@ -4,6 +4,7 @@ import { HighlighBlocks } from "./HighlighBlocks";
 import { SectionHeading } from "../shared/SectionHeading";
 import { SectionSubheading } from "../shared/SectionSubheading";
 import { Button } from "../shared/Button";
+import Link from "next/link";
 
 export const BenefitsGrid = () => {
   return (
@@ -24,7 +25,9 @@ export const BenefitsGrid = () => {
       <HighlighBlocks />
       <div className="col-span-3 mt-6 flex justify-center">
         <Button intent="outline">
+          <Link href={"https://sabeer-bhai-code.vercel.app/"}>
           <span className="font-bold">Get started - </span> post your first job!
+          </Link>
         </Button>
       </div>
     </motion.section>
