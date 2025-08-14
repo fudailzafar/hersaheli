@@ -6,6 +6,8 @@ export default function Document() {
       <Head>
         <title>Hersaheli – Empowering Women Everywhere</title>
         <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         {/* Basic Meta */}
         <meta name="description" content="Hersaheli – Empowering Women Everywhere" />
 
